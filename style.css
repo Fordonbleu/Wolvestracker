@@ -1,0 +1,59 @@
+html{
+    overflow-x: hidden;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    padding-top: 100px;
+}
+nav{
+    font-family: 'Inter' sans-serif;
+    background-color: rgb(31, 67, 153);
+    border-bottom: groove 3px rgb(96, 164, 106);
+    height: 100px;
+}
+
+.logo-text{
+    color:rgb(213, 229, 218);
+}
+
+.navbar-nav a{
+    color: rgb(96, 164, 106);
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(213, 229, 218) !important;
+}
+
+
+.navbar-nav .nav-link.nav-link:hover{
+    color: rgb(213, 229, 218) !important;
+}
+
+.hero{
+    background-color: rgb(31, 67, 153);
+    border-bottom: solid 4px rgb(96, 164, 106);
+}
+
+#welcome, #Motto, #info-text{
+    color: rgb(213, 229, 218);
+    padding-bottom: 20px;
+}
+
+button{
+    padding-left: 20px;
+}
+#btn-hero{
+    width: 200px;
+    height: 50px;
+    border: groove 2px rgb(96, 164, 106);
+    color: rgb(213, 229, 218);
+}
+
+.about{
+
+    background: linear-gradient(to bottom, #dee7e0, #60a46a);
+}
+
+

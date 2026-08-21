@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wolvestracker</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="logo.png" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <img src="logo.png" width="70px" alt="logo" />
+          <div class="logo-text p-3">
+            <h1>Wolvestracker</h1>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item p-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="players.html">Players</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero min-vh-100">
+      <div
+        class="container-fluid d-flex flex-column flex-lg-row align-items-center pt-3 pb-5 gap-0"
+      >
+        <div
+          class="d-flex col-12 col-lg-7 flex-column justify-content-center p-4"
+        >
+          <div class="ms-5 d-block ps-5 pt-5 pb-3 col-lg-7">
+            <h1 id="welcome">THE PACK IS HERE.</h1>
+          </div>
+          <div class="ms-5 ps-5 col-11 pt-4" id="Motto">
+            <h1>One team. One pack. One tracker.</h1>
+          </div>
+          <div class="ms-5 ps-5 col-9 pt-2 pb-5" id="info-text">
+            WolvesTracker is a fan-made website created for Timberwolves
+            enthusiasts who want a simple place to explore the team and its
+            players. From the stars leading the pack to the players contributing
+            behind the scenes, the site brings together team information, player
+            profiles, statistics, and other basketball content in one place.
+            Whether you're here to learn more about the roster, follow your
+            favorite players, or simply show your support for the Wolves,
+            WolvesTracker is your place to explore the team and celebrate the
+            game we love.
+          </div>
+          <div class="ms-5 button-container ps-5">
+            <button type="button" class="btn btn-outline-success" id="btn-hero">
+              EXPLORE THE PACK
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 d-flex justify-content-center">
+          <img class="img-fluid" src="logo.png" width="450px" alt="Hero Logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about min-vh-100 p-4 pt-5">
+      <div class="container-fluid">
+        <h1 class="text-about d-flex float-end col-sm-4 ps-5 pb-4">About</h1>
+        <div class="container d-flex">
+          <div class="ps-4 col-6 d-block">
+            <iframe
+              class="Video-Intro border rounded"
+              id="Video-Intro"
+              width="430px"
+              height="245px"
+              src="24-25 Minnesota Timberwolves City Edition Intro Video.mp4"
+              title="Minnesota Timberwolves Intro Video"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+          <p class="info-about d-block">
+            WolvesTracker is a fan-made hub for everything Timberwolves. Explore
+            the roster, learn more about the players, follow the team's journey,
+            and stay connected with the pack throughout the season. Discover
+            team history, key players, and everything that makes Timberwolves
+            basketball special. Built for Wolves fans, by a Wolves fan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <footer></footer>
+  </body>
+</html>
